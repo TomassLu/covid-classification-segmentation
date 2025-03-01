@@ -7,7 +7,7 @@ The code will show the result and save it as an image "Detection_result.png"
 
 # Libraries used
 Tensorflow, keras, matplot, numpy, cv2, os
-(Tensorflow and keraas versions - 2.13)
+(Tensorflow and keras versions - 2.13)
 
 # Used method info
 Three models were trained: densenet201 for image classification and 2 unets for lung and infection segmentation (for densenet batch size used - 16, for unets - 8, optimizer - adam)
