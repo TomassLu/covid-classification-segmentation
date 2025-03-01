@@ -10,7 +10,7 @@ Tensorflow, keras, matplot, numpy, cv2, os
 (Tensorflow and keraas versions - 2.13)
 
 # Used method info
-Three models were trained: densenet201 for image classification and 2 unets for lung and infection segmentation
+Three models were trained: densenet201 for image classification and 2 unets for lung and infection segmentation (for densenet batch size used - 16, for unets - 8, optimizer - adam)
 A simple unet architecture with middle Conv(256) bridge was chosen due to faster training
 The models are saved and then loaded by main python file to be used on single input image
 Detection results are shown with matplot (infection segmentation only shown if predicted class is COVID)
